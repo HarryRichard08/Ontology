@@ -1,0 +1,2655 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#"
+     xml:base="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27"
+     xmlns:_2="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#has_Max_Active_100Mb/_1Gb/_2.5Gb/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:_100="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#has_Max_Active_10_/_100/1000"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:_10_Gb_SFP="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#has_Max_Active_1/_10_Gb_SFP+"
+     xmlns:has_Max_Active_QSFP="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#has_Max_Active_QSFP+"
+     xmlns:has_Max__Active_100_Mb="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#has_Max__Active_100_Mb/"
+     xmlns:has_Max_Active_40_Gb_QSFP="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#has_Max_Active_40_Gb_QSFP+">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasAnteena -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasAnteena">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ExtremeNetworkProduct"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Anteena"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasDataRate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasDataRate">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ExtremeNetworkProduct"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#DataRate"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#supports"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ExtremeNetworkProduct"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasLocation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasLocation">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ExtremeNetworkProduct"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasManagement -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasManagement">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ExtremeNetworkProduct"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Management"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasOperatingsystem -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasOperatingsystem">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ExtremeNetworkProduct"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Operating_System"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasPerformanceTier -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasPerformanceTier">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ExtremeNetworkProduct"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#PerformanceTier"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasType -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasType">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ExtremeNetworkProduct"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Type"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasWarranty -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasWarranty">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ExtremeNetworkProduct"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Warranty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#supports -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#supports"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#has_Aggregated_Switch_Bandwidth -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#has_Aggregated_Switch_Bandwidth">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#has_Ethernet_Ports -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#has_Ethernet_Ports">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#has_Frame_Forwarding_Rate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#has_Frame_Forwarding_Rate">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#has_Max_Active_25Gb_SFP28_ports -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#has_Max_Active_25Gb_SFP28_ports">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#has_Maximum_Bandwidth -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#has_Maximum_Bandwidth">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#has_Max_Active_1/_10_Gb_SFP+_ports -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#has_Max_Active_1/_10_Gb_SFP+_ports">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#has_Max_Active_100Mb/_1Gb/_2.5Gb/_5Gb_ports -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#has_Max_Active_100Mb/_1Gb/_2.5Gb/_5Gb_ports">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#has_Max_Active_10_/_100/1000Mbports -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#has_Max_Active_10_/_100/1000Mbports">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#has_Max_Active_40_Gb_QSFP+_VIM5_ports -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#has_Max_Active_40_Gb_QSFP+_VIM5_ports">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#has_Max_Active_QSFP+_Stacking_Ports -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#has_Max_Active_QSFP+_Stacking_Ports">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#has_Max__Active_100_Mb/_1Gb_SFP_ports -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#has_Max__Active_100_Mb/_1Gb_SFP_ports">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP150W -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP150W">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Wireless"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasAnteena"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Internal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasLocation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Indoor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasManagement"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#CloudEnabled"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasPerformanceTier"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Specialized"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasType"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#WallJack"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Advanced_Security"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Automated_Deployment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#IoT-Ready"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Microsegmentation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Multi-AccessModes"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#PerformanceOptimization"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP30 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP30">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Wireless"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasAnteena"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Internal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasLocation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Indoor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasManagement"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#CloudEnabled"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasPerformanceTier"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Specialized"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasType"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Pluggable"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Flexible_Wi-Fi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#IoT-Ready"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#No_More_Dead_Zones"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Remote_VPN"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Solve_Density_Issues"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Third_Party_Networks"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP560 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP560">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Wireless"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasAnteena"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Internal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasLocation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Outdoor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasManagement"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#On-Prem_Only"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasOperatingsystem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#WiNG7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasPerformanceTier"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#UltraHigh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasWarranty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#1_year"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP_8533 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP_8533">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Wireless"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasAnteena"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#External"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasLocation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Indoor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasManagement"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#On-Prem_Only"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasPerformanceTier"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#High"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasType"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Ceiling"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#High-Density_Network"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Ring_Support"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Aggregation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Aggregation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Anteena -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Anteena"/>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Branch -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Branch">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#CER_2000 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#CER_2000">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Routing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasLocation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Branch"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasType"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Fixed"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Business_VPNs"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Scalable_Routing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Service_Management"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Video_Delivery"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Ceiling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Ceiling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Chasis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Chasis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#CloudEnabled -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#CloudEnabled">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Core -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Core">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#DataCenter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#DataCenter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#DataRate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#DataRate"/>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ERS_3600 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ERS_3600">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Switching"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasDataRate"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#1Gigabit"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasLocation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Edge"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasPerformanceTier"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Entry"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasType"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Stackable"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Dynamic_IP_Routing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Fabric_Attach"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Feature-rich"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Integrated_Design"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Non-Blocking"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Static_IP_Routing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ERS_4900 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ERS_4900">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Switching"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasLocation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Edge"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasType"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Chasis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasType"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Stackable"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Dynamic_IP_Routing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Non-Blocking"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Static_IP_Routing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Edge -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Edge">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Entry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Entry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#PerformanceTier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#External -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#External">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Anteena"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ExtremeNetworkProduct -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ExtremeNetworkProduct"/>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ExtremeXOS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ExtremeXOS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Operating_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Fixed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Fixed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#High -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#High">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#PerformanceTier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Indoor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Indoor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Internal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Internal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Anteena"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Location"/>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Management"/>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Mid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Mid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#PerformanceTier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Modular -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Modular">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Multi-Gigabit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Multi-Gigabit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#DataRate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#On-Prem_Only -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#On-Prem_Only">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Operating_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Operating_System"/>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Outdoor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Outdoor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#PerformanceTier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#PerformanceTier"/>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Pluggable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Pluggable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Routing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Routing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ExtremeNetworkProduct"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#SLX_9640 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#SLX_9640">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Routing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#SLX_9740 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#SLX_9740">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Routing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasLocation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Branch"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasLocation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Core"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasType"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Chasis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasType"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Stackable"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Core-Aggregation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Internet-Scale_Routing_Platform"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Ultra-Deep_Buffers"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#SLX_9850 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#SLX_9850">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Routing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasLocation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Edge"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasType"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Chasis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Embedded_Network_Visibility"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Modular"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Virtualized_Operating_System"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Specialized -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Specialized">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#PerformanceTier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Stackable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Stackable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Switching -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Switching">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ExtremeNetworkProduct"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Type"/>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#UltraHigh -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#UltraHigh">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#PerformanceTier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#V300 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#V300">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Switching"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasDataRate"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#10Gigabit"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasLocation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Edge"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasType"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Modular"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Plug_and_Play_Installation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Ring_Support"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Upstream_Exos"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#VSP_4900 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#VSP_4900">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Switching"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasDataRate"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Multi-Gigabit"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasLocation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Edge"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasPerformanceTier"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Mid"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasType"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Modular"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Fabric_Connect"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Multi-Cast"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#WallJack -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#WallJack">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Warranty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Warranty"/>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#WiNG7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#WiNG7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Operating_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Wireless -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Wireless">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ExtremeNetworkProduct"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X435 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X435">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Switching"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X440-G2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X440-G2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Switching"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasDataRate"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#1Gigabit"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasLocation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Edge"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasManagement"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#CloudEnabled"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasPerformanceTier"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Entry"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasType"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Stackable"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Audio_Video_Bridging"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Flexible_10Gb_Upgrades"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#High_Performance_Stacking"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Intelligent_Switching"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Power_Over_Ethernet"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#role-based"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X450-G2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X450-G2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Switching"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X460-G2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X460-G2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Switching"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X465 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X465">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Switching"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasDataRate"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Multi-Gigabit"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasLocation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Edge"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasManagement"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#CloudEnabled"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasPerformanceTier"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#High"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasType"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Stackable"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Extended_Edge_Switching"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Versatile_Interface_Modules"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#role-based"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#XR600P -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#XR600P">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Routing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasLocation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Branch"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasType"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Fixed"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Full_Stack_Management"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#LTE_Backhaul"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#LowerTCO"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Optimized_Connectivity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Secure_Branch_Access"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Simplified_Rollouts"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#1Gigabit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#1Gigabit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#DataRate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#1_year -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#1_year">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Warranty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#10Gigabit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#10Gigabit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#DataRate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#100Gigabit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#100Gigabit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#DataRate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#25Gigabit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#25Gigabit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#DataRate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#40Gigabit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#40Gigabit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#DataRate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP410i/e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP410i/e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Wireless"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasAnteena"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Internal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasLocation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Indoor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasManagement"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#On-Prem_Only"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasPerformanceTier"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#High"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasType"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Ceiling"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP460i/e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP460i/e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Wireless"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasAnteena"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#External"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasLocation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Outdoor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasManagement"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#On-Prem_Only"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasPerformanceTier"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#High"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasType"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Ceiling"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Integrated_BLE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Management_Analysis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#RF_Monitoring"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Security"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Smart_Sensor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Wifi_6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP_305C/CX -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP_305C/CX">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Wireless"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasAnteena"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#External"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasLocation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Indoor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasManagement"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#CloudEnabled"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasPerformanceTier"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Mid"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasType"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Ceiling"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#IoT-Ready"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Management_Analysis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Programmable_Radios"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#RF_Monitoring"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Security"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#hasFeature"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Wifi_6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP-8533-68SB30-1-WR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP-8533-68SB30-1-WR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP_8533"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP-8533-68SB30-US -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP-8533-68SB30-US">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP_8533"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP-8533-68SB40-1-WR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP-8533-68SB40-1-WR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP_8533"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP-8533-68SB40-US -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP-8533-68SB40-US">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP_8533"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP305C-CAN -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP305C-CAN">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP_305C/CX"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP305C-FCC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP305C-FCC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP_305C/CX"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP305C-WR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP305C-WR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP_305C/CX"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP305CX-CAN -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP305CX-CAN">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP_305C/CX"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP305CX-FCC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP305CX-FCC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP_305C/CX"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP305CX-WR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP305CX-WR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP_305C/CX"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP410e-CAN -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP410e-CAN">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP410i/e"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP410e-FCC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP410e-FCC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP410i/e"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP410e-WR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP410e-WR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP410i/e"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP410i-CAN -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP410i-CAN">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP410i/e"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP410i-FCC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP410i-FCC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP410i/e"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP410i-IL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP410i-IL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP410i/e"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP410i-WR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP410i-WR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP410i/e"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP460e-CAN -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP460e-CAN">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP460i/e"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP460e-FCC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP460e-FCC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP460i/e"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP460e-WR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP460e-WR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP460i/e"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP460i-CAN -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP460i-CAN">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP460i/e"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP460i-FCC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP460i-FCC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP460i/e"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP460i-WR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP460i-WR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP460i/e"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP460i-iL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP460i-iL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP460i/e"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP560h-WR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP560h-WR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP560"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP560i-WR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP560i-WR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP560"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Advanced_Security -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Advanced_Security">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Audio_Video_Bridging -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Audio_Video_Bridging">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Automated_Deployment -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Automated_Deployment">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Business_VPNs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Business_VPNs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#CER_2024C-RT -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#CER_2024C-RT">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#CER_2000"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#CER_2024F-RT -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#CER_2024F-RT">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#CER_2000"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Core-Aggregation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Core-Aggregation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Dynamic_IP_Routing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Dynamic_IP_Routing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ERS_3600 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ERS_3600">
+        <has_Ethernet_Ports>24 or 48 Ports</has_Ethernet_Ports>
+        <has_Maximum_Bandwidth>192Gbps</has_Maximum_Bandwidth>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ERS_3626GTS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ERS_3626GTS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ERS_3600"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ERS_3650GTS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ERS_3650GTS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ERS_3600"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ERS_4900 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ERS_4900"/>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ERS_4926GTS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ERS_4926GTS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ERS_4900"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ERS_4950GTS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ERS_4950GTS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ERS_4900"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Embedded_Network_Visibility -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Embedded_Network_Visibility">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Extended_Edge_Switching -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Extended_Edge_Switching">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Fabric_Attach -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Fabric_Attach">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Fabric_Connect -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Fabric_Connect">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Feature-rich -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Feature-rich">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Flexible_10Gb_Upgrades -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Flexible_10Gb_Upgrades">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Flexible_Wi-Fi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Flexible_Wi-Fi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Full_Stack_Management -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Full_Stack_Management">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#High-Density_Network -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#High-Density_Network">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#High_Performance_Stacking -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#High_Performance_Stacking">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Integrated_Application_Hosting -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Integrated_Application_Hosting">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Integrated_BLE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Integrated_BLE">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Integrated_Design -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Integrated_Design">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Intelligent_Switching -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Intelligent_Switching">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Internet-Scale_Routing_Platform -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Internet-Scale_Routing_Platform">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#IoT -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#IoT">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#IoT-Ready -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#IoT-Ready">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#LTE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#LTE">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#LTE_Backhaul -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#LTE_Backhaul">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Location_LED -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Location_LED">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#LowerTCO -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#LowerTCO">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#MACsec -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#MACsec">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Management_Analysis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Management_Analysis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Microsegmentation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Microsegmentation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Modular -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Modular">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Multi-AccessModes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Multi-AccessModes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Multi-Cast -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Multi-Cast">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#No_More_Dead_Zones -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#No_More_Dead_Zones">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Non-Blocking -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Non-Blocking">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Non-Local_IP_Routing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Non-Local_IP_Routing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Optimized_Connectivity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Optimized_Connectivity">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#PerformanceOptimization -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#PerformanceOptimization">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Plug_and_Play_Installation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Plug_and_Play_Installation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Power_Over_Ethernet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Power_Over_Ethernet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Programmable_Radios -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Programmable_Radios">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#RF_Monitoring -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#RF_Monitoring">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#RF_Spectrum_Sensor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#RF_Spectrum_Sensor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Remote_VPN -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Remote_VPN">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Ring_Support -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Ring_Support">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Scalable_Routing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Scalable_Routing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Secure_Branch_Access -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Secure_Branch_Access">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Security -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Security">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Service_Management -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Service_Management">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Simplified_Rollouts -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Simplified_Rollouts">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Smart_Sensor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Smart_Sensor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Solve_Density_Issues -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Solve_Density_Issues">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Static_IP_Routing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Static_IP_Routing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Third_Party_Networks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Third_Party_Networks">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Ultra-Deep_Buffers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Ultra-Deep_Buffers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Upstream_Exos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Upstream_Exos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#V300-8P-2T-W -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#V300-8P-2T-W">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#V300"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#V300-8P-2X -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#V300-8P-2X">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#V300"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#V300-8T-2X -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#V300-8T-2X">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#V300"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#V300HT-8P-2X -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#V300HT-8P-2X">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#V300"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#V300HT-8T-2X -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#V300HT-8T-2X">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#V300"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#VSP4900-12MXU-12XE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#VSP4900-12MXU-12XE">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#VSP_4900"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#VSP4900-24S -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#VSP4900-24S">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#VSP_4900"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#VSP4900-24XE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#VSP4900-24XE">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#VSP_4900"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#VSP4900-48P -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#VSP4900-48P">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#VSP_4900"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Versatile_Interface_Modules -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Versatile_Interface_Modules">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Video_Delivery -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Video_Delivery">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Virtualized_Operating_System -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Virtualized_Operating_System">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#WPA3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#WPA3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Wifi_6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Wifi_6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X440-G2-12p-10GE4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X440-G2-12p-10GE4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X440-G2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X440-G2-12t-10GE4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X440-G2-12t-10GE4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X440-G2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X440-G2-12t8fx-GE4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X440-G2-12t8fx-GE4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X440-G2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X440-G2-24fx-GE4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X440-G2-24fx-GE4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X440-G2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X440-G2-24p-10GE4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X440-G2-24p-10GE4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X440-G2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X440-G2-24t-10GE4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X440-G2-24t-10GE4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X440-G2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X440-G2-24t-10GE4-DC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X440-G2-24t-10GE4-DC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X440-G2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X440-G2-24t-GE4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X440-G2-24t-GE4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X440-G2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X440-G2-24x-10GE4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X440-G2-24x-10GE4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X440-G2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X440-G2-48p-10GE4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X440-G2-48p-10GE4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X440-G2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X440-G2-48t-10GE4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X440-G2-48t-10GE4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X440-G2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X440-G2-48t-10GE4-DC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X440-G2-48t-10GE4-DC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X440-G2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X465-24MU -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X465-24MU">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X465"/>
+        <has_Aggregated_Switch_Bandwidth>648 Gbps</has_Aggregated_Switch_Bandwidth>
+        <has_Frame_Forwarding_Rate>482.1Mpps</has_Frame_Forwarding_Rate>
+        <has_Max_Active_25Gb_SFP28_ports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</has_Max_Active_25Gb_SFP28_ports>
+        <_10_Gb_SFP:_ports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</_10_Gb_SFP:_ports>
+        <_2:_5Gb_ports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</_2:_5Gb_ports>
+        <_100:Mbports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</_100:Mbports>
+        <has_Max_Active_40_Gb_QSFP:_VIM5_ports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</has_Max_Active_40_Gb_QSFP:_VIM5_ports>
+        <has_Max_Active_QSFP:_Stacking_Ports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</has_Max_Active_QSFP:_Stacking_Ports>
+        <has_Max__Active_100_Mb:_1Gb_SFP_ports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</has_Max__Active_100_Mb:_1Gb_SFP_ports>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X465-24MU-24W -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X465-24MU-24W">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X465"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X465-24S -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X465-24S">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X465"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X465-24W -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X465-24W">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X465"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X465-24XE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X465-24XE">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X465"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X465-48P -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X465-48P">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X465"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X465-48T -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X465-48T">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#X465"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#role-based -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#role-based">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP560h–FCC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP560h–FCC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP560"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP560i–FCC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP560i–FCC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#AP560"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ERS_3626GTS-PWR+ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ERS_3626GTS-PWR+">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ERS_3600"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ERS_3650GTS-PWR+ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ERS_3650GTS-PWR+">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ERS_3600"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ERS_4926GTS-PWR+ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ERS_4926GTS-PWR+">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ERS_4900"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ERS_4950GTS-PWR+ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ERS_4950GTS-PWR+">
+        <rdf:type rdf:resource="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ERS_4900"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Anteena"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#DataRate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#ExtremeNetworkProduct"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Features"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Location"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Management"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Operating_System"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#PerformanceTier"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Type"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/machine/ontologies/2020/8/untitled-ontology-27#Warranty"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
